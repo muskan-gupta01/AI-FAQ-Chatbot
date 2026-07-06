@@ -1,0 +1,102 @@
+question,answer
+What is AI?,AI stands for Artificial Intelligence.
+What is Machine Learning?,Machine Learning is a subset of Artificial Intelligence that learns from data.
+What is Deep Learning?,Deep Learning is a branch of Machine Learning that uses neural networks.
+What is Python?,"Python is a popular programming language used for web development, AI, and data science."
+What is Data Science?,Data Science is the process of extracting insights from data.
+What is NLP?,"NLP stands for Natural Language Processing, which helps computers understand human language."
+What is ChatGPT?,ChatGPT is an AI chatbot developed by OpenAI.
+What is Streamlit?,Streamlit is a Python framework for creating interactive web applications.
+What is scikit-learn?,Scikit-learn is a Python library for machine learning.
+What is Pandas?,Pandas is a Python library used for data manipulation and analysis.
+What is NumPy?,NumPy is a Python library used for numerical computing.
+What is Matplotlib?,Matplotlib is a Python library for creating charts and graphs.
+How do I install Python?,Download Python from python.org and follow the installation instructions.
+How do I install Streamlit?,Run pip install streamlit in your terminal.
+What is TF-IDF?,TF-IDF converts text into numerical vectors based on word importance.
+What is Cosine Similarity?,Cosine Similarity measures how similar two pieces of text are.
+Why is preprocessing important in NLP?,Preprocessing removes unnecessary words and cleans text to improve accuracy.
+What are stop words?,Stop words are common words that are often removed during text processing.
+What is tokenization?,Tokenization is the process of splitting text into individual words or tokens.
+How does a FAQ chatbot work?,A FAQ chatbot compares the user's question with stored FAQs and returns the most similar answer.
+What is Vectorization in NLP?,Vectorization converts text into numerical representations that machine learning models can process.
+How do I install scikit-learn?,Run pip install scikit-learn in your terminal.
+How do I install NLTK?,Run pip install nltk in your terminal.
+How do I install Matplotlib?,Run pip install matplotlib in your terminal.
+What is OpenAI?,OpenAI is an AI research and deployment company that develops advanced AI models.
+What is Generative AI?,"Generative AI creates new content such as text, images, audio, or code using machine learning models."
+What is a Large Language Model?,A Large Language Model is an AI model trained on massive amounts of text to understand and generate human language.
+What is Prompt Engineering?,Prompt Engineering is the practice of designing effective prompts to get better responses from AI models.
+What is Retrieval-Augmented Generation?,Retrieval-Augmented Generation combines retrieval with language models for better answers.
+What is supervised learning?,Supervised learning uses labeled data for training.
+What is unsupervised learning?,Unsupervised learning finds patterns in unlabeled data.
+What is reinforcement learning?,Reinforcement learning trains agents using rewards and penalties.
+What is a dataset?,A dataset is a collection of related data.
+What is training data?,Training data is used to train a machine learning model.
+What is testing data?,Testing data evaluates model performance.
+What is overfitting?,Overfitting occurs when a model memorizes training data.
+What is underfitting?,Underfitting occurs when a model fails to learn patterns.
+What is accuracy?,Accuracy is the percentage of correct predictions.
+What is precision?,Precision measures how many predicted positives are actually positive.
+What is recall?,Recall measures how many actual positives are correctly identified.
+What is F1 Score?,F1 Score is the harmonic mean of precision and recall.
+What is a confusion matrix?,A confusion matrix summarizes prediction performance.
+What is feature engineering?,Feature engineering creates useful input features.
+What is feature scaling?,Feature scaling transforms values into a similar range.
+What is normalization?,Normalization scales values to a fixed range.
+What is standardization?,Standardization transforms data to zero mean and unit variance.
+What is a classification model?,A classification model predicts categories.
+What is a regression model?,A regression model predicts continuous values.
+What is clustering?,Clustering groups similar data points.
+What is K-Means?,K-Means is a clustering algorithm.
+What is Decision Tree?,Decision Tree is a tree-based machine learning algorithm.
+What is Random Forest?,Random Forest combines multiple decision trees.
+What is Support Vector Machine?,Support Vector Machine is a supervised learning algorithm.
+What is Logistic Regression?,Logistic Regression is used for classification.
+What is Linear Regression?,Linear Regression predicts continuous values.
+What is Naive Bayes?,Naive Bayes is a probabilistic algorithm.
+What is Cross Validation?,Cross Validation evaluates models using multiple data splits.
+What is Hyperparameter Tuning?,Hyperparameter Tuning optimizes model parameters.
+What is Grid Search?,Grid Search tests parameter combinations.
+What is Pipeline in Machine Learning?,A pipeline automates preprocessing and training.
+What is Model Deployment?,Model Deployment makes a trained model available for use.
+What is Flask?,Flask is a lightweight Python web framework.
+What is FastAPI?,FastAPI is a modern framework for building APIs.
+What is API?,An API enables software communication.
+What is REST API?,A REST API communicates over HTTP.
+What is JSON?,JSON is a lightweight data exchange format.
+What is CSV?,CSV stores tabular data.
+What is SQL?,SQL manages relational databases.
+What is Git?,Git is a version control system.
+What is GitHub?,GitHub hosts Git repositories.
+What is Version Control?,Version Control tracks code changes.
+What is Virtual Environment?,A virtual environment isolates project dependencies.
+What is pip?,pip installs Python packages.
+What is Jupyter Notebook?,Jupyter Notebook is an interactive coding environment.
+What is VS Code?,VS Code is a source code editor.
+What is TensorFlow?,TensorFlow is an open-source ML framework.
+What is PyTorch?,PyTorch is an open-source deep learning framework.
+What is Keras?,Keras is a high-level deep learning API.
+What is Computer Vision?,Computer Vision enables image understanding.
+What is Image Classification?,Image Classification predicts image categories.
+What is Object Detection?,Object Detection locates objects in images.
+What is OCR?,OCR converts images into text.
+What is Speech Recognition?,Speech Recognition converts speech into text.
+What is Text Mining?,Text Mining extracts information from text.
+What is Sentiment Analysis?,Sentiment Analysis detects opinions in text.
+What is Recommendation System?,Recommendation Systems suggest relevant items.
+What is Big Data?,Big Data refers to massive datasets.
+What is Cloud Computing?,Cloud Computing provides computing over the internet.
+What is AWS?,AWS is Amazon's cloud platform.
+What is Azure?,Azure is Microsoft's cloud platform.
+What is Google Cloud?,Google Cloud is Google's cloud platform.
+What is Docker?,Docker packages applications into containers.
+What is Kubernetes?,Kubernetes manages containers.
+What is Data Visualization?,Data Visualization presents data using charts.
+Why is Python popular for AI?,Python is popular due to its simplicity and AI libraries.
+Can ChatGPT write code?,"Yes, ChatGPT can generate and explain code."
+Can AI replace programmers?,AI assists programmers but does not replace them.
+How can I start learning AI?,"Learn Python, mathematics, machine learning, and build projects."
+What skills are required for Data Science?,"Programming, statistics, SQL, machine learning, and visualization are important."
+What is an AI FAQ Chatbot?,An AI FAQ Chatbot answers questions using NLP and similarity matching.
+What is Artificial Neural Network?,An Artificial Neural Network is inspired by the human brain and is used in deep learning.
