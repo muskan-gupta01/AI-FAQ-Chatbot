@@ -1,127 +1,149 @@
 # 🤖 AI FAQ Chatbot
 
-An AI-powered FAQ Chatbot built using **Python, Streamlit, NLP, TF-IDF, Cosine Similarity, and Groq LLM**. The chatbot answers user questions by matching them with a FAQ dataset and can also generate intelligent responses using an LLM when required.
+<p align="center">
+  <b>An AI-powered FAQ Chatbot built using Python, Streamlit, NLP, TF-IDF, Cosine Similarity, Scikit-learn, and Groq LLM.</b>
+</p>
+
+<p align="center">
+This chatbot intelligently answers user questions by first searching a FAQ knowledge base using NLP and semantic similarity. If no relevant FAQ is found, it generates an AI-powered response using the Groq Large Language Model (LLM).
+</p>
 
 ---
 
-# 📌 Project Overview
+# 🚀 Features
 
-The AI FAQ Chatbot is designed to provide quick and accurate answers to frequently asked questions related to Artificial Intelligence, Machine Learning, Python, NLP, Data Science, and Streamlit.
-
-The project combines traditional NLP techniques with Large Language Models (Groq LLM) to improve response quality and user experience.
-
----
-
-# ✨ Features
-
-- 🤖 AI-powered chatbot interface
-- 🧠 NLP text preprocessing
-- 📊 TF-IDF Vectorizer
-- 📈 Cosine Similarity matching
-- ⚡ Groq LLM integration
-- 🎯 Confidence Score
-- 🔍 Similar Question Suggestions
-- 💬 Chat History
-- ⬇ Download Chat History
-- 📚 FAQ Dataset Preview
-- 📊 Dashboard Statistics
-- 🌙 Modern Dark UI
-- 📱 Responsive Streamlit Interface
+- 🤖 AI-powered FAQ Chatbot
+- 🧠 Groq LLM Integration
+- 🔍 TF-IDF Vectorization
+- 📊 Cosine Similarity Matching
+- 📝 NLP Text Preprocessing
+- 💬 Interactive Chat Interface
+- 📜 Chat History
+- ⬇ Download Chat History (JSON)
+- 📈 Dashboard with Statistics
+- 💡 Quick Question Buttons
+- 📖 FAQ Dataset Preview
+- ⚡ Fast & Responsive Streamlit UI
 
 ---
 
-# 🛠 Technologies Used
+# 🛠️ Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
-| Python | Backend Development |
-| Streamlit | Web Interface |
-| Pandas | Dataset Handling |
-| Scikit-learn | TF-IDF & Cosine Similarity |
-| NLTK | Text Preprocessing |
-| Groq API | AI Response Generation |
-| JSON | Chat History Download |
+| Python | Programming Language |
+| Streamlit | Web Application |
+| Pandas | Data Handling |
+| NLTK | NLP Preprocessing |
+| Scikit-learn | Machine Learning |
+| TF-IDF | Text Vectorization |
+| Cosine Similarity | FAQ Matching |
+| Groq LLM | AI Response Generation |
+| JSON | Chat Export |
 
 ---
 
 # 📂 Project Structure
 
-```
-FAQ-Chatbot/
+```text
+AI-FAQ-Chatbot/
 │
-├── .streamlit/
-│   └── config.toml
-│
-├── assets/
-│
-├── Screenshots/
-│   ├── home_page.png
-│   ├── chat_page.png
-│   ├── features_page.png
-│   └── demo.mp4
-│
-├── .env
-├── .gitignore
 ├── app.py
 ├── chatbot.py
-├── llm.py
 ├── utils.py
 ├── faq.csv
 ├── requirements.txt
-└── README.md
+├── README.md
+├── .gitignore
+├── images/
+│   ├── home_page1.png
+│   ├── home_page2.png
+│   ├── home_page3.png
+│   └── home_page4.png
+└── venv/
 ```
 
 ---
 
-# ⚙ Installation
+# 📸 Project Screenshots
 
-## 1. Clone Repository
+## 🏠 Home Page
+
+![Home Page](images/home_page1.png)
+
+---
+
+## 💬 Chat Interface
+
+![Chat Interface](images/home_page2.png)
+
+---
+
+## 🤖 AI Response
+
+![AI Response](images/home_page3.png)
+
+---
+
+## 📊 Dashboard & Features
+
+![Dashboard](images/home_page4.png)
+
+---
+
+# ⚙️ Installation
+
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/FAQ-Chatbot.git
+git clone https://github.com/muskan-gupta01/AI-FAQ-Chatbot.git
 ```
 
-## 2. Open Project
+### 2️⃣ Open Project
 
 ```bash
-cd FAQ-Chatbot
+cd AI-FAQ-Chatbot
 ```
 
-## 3. Create Virtual Environment
+### 3️⃣ Create Virtual Environment
 
 ```bash
 python -m venv venv
 ```
 
-## 4. Activate Environment
+### 4️⃣ Activate Virtual Environment
 
-### Windows
+#### Windows
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Linux / macOS
+#### Linux / macOS
 
 ```bash
 source venv/bin/activate
 ```
 
-## 5. Install Dependencies
+### 5️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 6. Configure Environment Variables
+---
 
-Create a `.env` file in the project root.
+# 🔑 Configure Groq API Key
 
-```env
-GROQ_API_KEY=your_api_key_here
+Create a `.env` file inside the project folder and add:
+
+```text
+GROQ_API_KEY=your_groq_api_key_here
 ```
 
-## 7. Run the Application
+---
+
+# ▶️ Run the Application
 
 ```bash
 streamlit run app.py
@@ -129,75 +151,43 @@ streamlit run app.py
 
 ---
 
-# 💻 How It Works
+# 🧠 How It Works
 
 1. User enters a question.
-2. The question is preprocessed using NLP.
+2. NLP preprocesses the input.
 3. TF-IDF converts text into vectors.
-4. Cosine Similarity finds the closest FAQ.
-5. Confidence Score is calculated.
-6. Similar questions are displayed.
-7. If required, Groq LLM generates an intelligent response.
-8. Chat history can be downloaded as JSON.
+4. Cosine Similarity finds the most relevant FAQ.
+5. If a matching FAQ is found, its answer is displayed.
+6. Otherwise, the chatbot generates an AI response using Groq LLM.
+7. The conversation is saved in chat history.
+8. Users can download the chat history in JSON format.
 
 ---
 
-# 📸 Screenshots
+# ✨ Key Highlights
 
-## Home Page
-
-> Add: `screenshots/home_page.png`
-
----
-
-## Chat Interface
-
-> Add: `screenshots/chat_page.png`
-
----
-
-## Features Page
-
-> Add: `screenshots/features_page.png`
+- NLP-based FAQ Search
+- AI-powered Responses using Groq LLM
+- Confidence Score Display
+- Similar Question Suggestions
+- Interactive Dashboard
+- Download Chat History
+- FAQ Dataset Preview
+- Modern Streamlit UI
+- Cached Model Loading
+- Fast Response Time
 
 ---
 
-# 🎥 Demo Video
-
-Project demo video is available inside the project folder.
-
-```
-screenshots/demo.mp4
-```
-
----
-
-# 🚀 Future Improvements
+# 🔮 Future Improvements
 
 - 🎤 Voice Input
 - 🔊 Text-to-Speech
-- 🌐 Multi-language Support
-- 👤 User Authentication
-- 🗄 Database Integration
+- 🌍 Multi-language Support
 - 📄 PDF Knowledge Base
-- 📊 Chat Analytics
-
----
-
-# 📈 Learning Outcomes
-
-Through this project I learned:
-
-- Natural Language Processing (NLP)
-- Text Preprocessing
-- TF-IDF Vectorization
-- Cosine Similarity
-- Streamlit Application Development
-- REST API Integration
-- Groq LLM Integration
-- Prompt Engineering
-- Git & GitHub
-- AI Chatbot Development
+- 🗄 Database Integration
+- 👤 User Authentication
+- ☁️ Cloud Deployment
 
 ---
 
@@ -205,24 +195,24 @@ Through this project I learned:
 
 **Muskan Gupta**
 
-AI & Python Enthusiast
+### 🔗 LinkedIn
+
+https://linkedin.com/in/muskan-gupta-551293386
+
+### 💻 GitHub
+
+https://github.com/muskan-gupta01
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
 
 ---
 
 # 📄 License
 
-This project is developed for learning purposes and submitted as part of the **Alpha Internship**.
+This project is developed for educational, learning, internship, and portfolio purposes.
 
----
-
-# ⭐ Acknowledgements
-
-- Streamlit
-- Scikit-learn
-- NLTK
-- Groq
-- Python Community
-
----
-
-## Thank You ❤️
+© 2026 Muskan Gupta. All Rights Reserved.
