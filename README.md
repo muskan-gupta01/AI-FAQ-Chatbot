@@ -274,3 +274,6 @@ If you found this project useful, please consider giving it a ⭐ on GitHub.
 This project is intended for educational, learning, portfolio, and internship purposes.
 
 © 2026 Muskan Gupta. All Rights Reserved.
+
+---
+Thank You! ❤️
